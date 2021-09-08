@@ -10,8 +10,8 @@ class ProductItem extends StatelessWidget {
   const ProductItem(
       {Key? key,
       required this.product,
-      this.lineChange,
-      this.textContainerHeight})
+      this.lineChange = false,
+      this.textContainerHeight = 80})
       : super(key: key);
 
   @override
