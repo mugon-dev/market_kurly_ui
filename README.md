@@ -1,16 +1,45 @@
 # market_kurly_ui
 
-A new Flutter project.
+- splash
 
-## Getting Started
+|로딩화면|
+|------|
+|![splash](./readme/splash.png)|
 
-This project is a starting point for a Flutter application.
+- home
 
-A few resources to get you started if this is your first Flutter project:
+|컬리추천|신상품|
+|------|---|
+|![kurly](./readme/home_kurly.png)|![new_product](./readme/home_new_product.png)|
+|금주혜택|알뜰쇼핑|
+|![benefit](./readme/home_benefit.png)|![thrifty_shopping](./readme/home_thrifty_shopping.png)|
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- recommend
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|추천|
+|------|
+|![recommend](./readme/recommend.png)|
+
+- category
+
+|카테고리1|카테고리2|
+|------|------|
+|![category](./readme/category1.png)|![category2](./readme/category2.png)|
+
+- search
+
+|검색1|검색2|
+|------|------|
+|![search](./readme/search1.png)|![search2](./readme/search2.png)|
+
+- my_kurly
+
+|마이컬리1|마이컬리2|
+|------|------|
+|![my_kurly](./readme/my_kurly1.png)|![my_kurly2](./readme/my_kurly2.png)|
+
+- signin
+
+|로그인|로그인2|
+|------|------|
+|![signin](./readme/signin1.png)|![my_kurly2](./readme/signin2.png)|
