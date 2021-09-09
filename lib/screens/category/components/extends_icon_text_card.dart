@@ -47,10 +47,11 @@ class _ExtendsIconTextCardState extends State<ExtendsIconTextCard> {
                   width: 30,
                   child: IconButton(
                     onPressed: () {
+                      print("toggle");
                       toggole();
                     },
                     icon: SvgPicture.asset(
-                      "assets/icons/down-arro.svg",
+                      "assets/icons/down-arrow.svg",
                       color: Colors.grey,
                     ),
                   ),
