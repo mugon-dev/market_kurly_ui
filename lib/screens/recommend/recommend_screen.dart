@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:market_kurly_ui/models/product.dart';
 import 'package:market_kurly_ui/screens/recommend/components/card_product_item.dart';
+import 'package:market_kurly_ui/screens/recommend/components/stack_product_item.dart';
 import 'package:market_kurly_ui/theme.dart';
 
 class RecommendScreen extends StatelessWidget {
@@ -25,9 +26,13 @@ class RecommendScreen extends StatelessWidget {
           ),
           const SizedBox(height: 15),
           Container(
-            color: Colors.orange[100],
             height: 270,
-            child: Center(child: Text('수평 스크롤 영역')),
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) => StackProductItem(
+                  width: 160, item: productList[index], number: index + 1),
+              itemCount: productList.length,
+            ),
           ),
           const SizedBox(height: 20),
           Padding(
@@ -38,12 +43,6 @@ class RecommendScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 15),
-          Container(
-            color: Colors.red[100],
-            height: 270,
-            child: Center(child: Text('수평 스크롤 영역2')),
-          ),
-          const SizedBox(height: 20),
           Container(
             height: 360,
             child: ListView.builder(
