@@ -1,6 +1,4 @@
 // 라우터 관리 파일( 화면 이동 경로 정의 )
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:market_kurly_ui/screens/details/details_screen.dart';
 import 'package:market_kurly_ui/screens/main_screens.dart';
